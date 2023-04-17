@@ -41,15 +41,14 @@ if (st.sidebar.button('Hitung Estimasi Harga', type='primary')) :
     st.subheader(f'Maka estimasi harga mobil `Rp. {idr},-`')
     
     with st.spinner("Tugas ini dipersembahkan oleh: "):
-        time.sleep(5)
+        time.sleep(3)
         st.write("Tugas ini dipersembahkan oleh: ")
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image('img/reza.png', caption="Reza Riyaldi", use_column_width=True)
+            st.image('img/diki.png', caption="Diky Ramdhani", use_column_width=True)
         with col2:
-            st.image('img/diki.png', caption="Diki Ramdhani", use_column_width=True)
+            st.image('img/reza.png', caption="Reza Riyaldi", use_column_width=True)
         with col3:
-            st.warning("1 Lagi masih afk")
-            # st.image('img/reza.png', caption="Reza Riyaldi", use_column_width=True)
+            st.image('img/ricat.png', caption="Mohammad Rizky", use_column_width=True)
 

@@ -8,7 +8,7 @@ model = pickle.load(open('estimate_cars.sav', 'rb'))
 st.title("Estimasi Harga Mobil Bekas")
 
 
-# Input in Sidebar
+# Input in Sidebar Form
 st.sidebar.title("Form Input Untuk Spesifikasi Mobil Bekas")
 year = st.sidebar.number_input('Tahun Mobil', value=2019)
 mileage = st.sidebar.number_input('KM Mobil', value=5000)
